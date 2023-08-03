@@ -1,0 +1,18 @@
+@import "../Style.css";
+.widget-header {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.search-btn {
+  width: 100px;
+  height: 40px;
+  background-color: var(--color-primary-gradient) !important;
+  color: var(--color-white);
+}
+
+.search-btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}

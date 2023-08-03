@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #0d6efd;
+  --color-primary-gradient: #127fff;
+  --color-green: #00b517;
+  --color-orange: #ff9017;
+  --color-red: #fa3434;
+  --base-color-dark: #1c1c1c;
+  --gray-600: #505050;
+  --gray-500: #8b96a5;
+  --gray-400: #bdc4cd;
+  --gray-300: #dee2e7;
+  --gray-200: #eff2f4;
+  --gray-100: #f7fafc;
+  --color-white: #fff;
+}
+
+/* typography */
+
+@font-face {
+  font-family: Inter;
+  font-weight: 400;
+  src: url(assets/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  font-weight: 500;
+  src: url(assets/fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  font-weight: 600;
+  src: url(assets/fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: Inter;
+  font-weight: 700;
+  src: url(assets/fonts/Inter-Bold.ttf);
+}
+:root {
+  --text-title: 16px;
+  --text-base: 16px;
+  --text-small: 13px;
+}
+body {
+  font-family: Inter !important;
+}
+/* Resets */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font: inherit;
+  border: none;
+  cursor: pointer;
+}

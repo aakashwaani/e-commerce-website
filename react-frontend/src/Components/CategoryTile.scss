@@ -1,0 +1,12 @@
+.background {
+  background: url("src/assets/img/Image/interior.jpg");
+}
+.bordered-cols > [class*="col-"] {
+  outline: 1px solid #dee2e6;
+  background: #fff;
+  overflow: hidden;
+}
+.size-72 {
+  width: 72px;
+  height: 72px;
+}
