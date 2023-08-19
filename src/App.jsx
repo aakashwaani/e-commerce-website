@@ -2,15 +2,23 @@ import "./Style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import Home from "./Pages/Home";
-// import SignUpForm from "./Pages/SignUp";
-// import LogIn from "./Pages/login";
+import { Route, Routes } from "react-router-dom";
+
+import SignUpForm from "./Pages/SignUp";
+import LogIn from "./Pages/login";
+import Navigation from "./Components/Navigation";
 
 export default function App() {
   return (
     <>
-      {/* <SignUpForm /> */}
-      {/* <LogIn /> */}
-      <Home />
+  
+     <Routes>
+        <Route path="/" element = { <Home />}/> 
+        <Route path="/signup" element = { <SignUpForm/> }/>
+        <Route path="/login" element={<LogIn/>}/>
+      </Routes>
+
+     
     </>
   );
 }
